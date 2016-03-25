@@ -30,7 +30,7 @@
     <config-file target="res/xml/config.xml" parent="/*">
       <!-- Cordovaはfeatureタグをみて、どのプラグインが有効か見る。以下の情報が上記のファイルに追加される。 -->
       <feature name="helloworld">
-        <param name="android-package" value="plugin.helloworld"/>
+        <param name="android-package" value="plugin.helloworld.HelloWorld"/>
       </feature>
     </config-file>
     <!-- Javaのソースファイル。 target-dir: ファイルがコンパイルされるべき場所 -->

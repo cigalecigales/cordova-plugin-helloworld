@@ -5,6 +5,6 @@ module.exports = {
     // 第3引数: プラグインの名前（plugin.xmlのfeatureのnameに設定したもの）
     // 第4引数: HelloWorld.javaの第1引数に渡る名前
     // 第5引数: HelloWorld.javaの第2引数に渡る値
-    cordova.exec(successCallback, errorCallback, "HelloWorld", "sayHello", [name]);
+    cordova.exec(successCallback, errorCallback, "helloworld", "sayHello", [name]);
   }
 };
