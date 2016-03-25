@@ -6,7 +6,7 @@
   version="1.0.0">
 
   <!-- プラグイン名 -->
-  <name>Hello World</name>
+  <name>HelloWorld</name>
   <!-- プラグインの説明 -->
   <description>This is a first plugin !!</description>
   <!-- 作者 -->
