@@ -1,4 +1,5 @@
 module.exports = {
+  // 画面からはこの関数名を使って呼び出し
   sayHello: function(name, successCallback, errorCallback) {
     // 第1引数: 成功時に呼び出す関数
     // 第2引数: エラー時に呼び出す関数
