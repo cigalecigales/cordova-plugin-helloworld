@@ -37,5 +37,4 @@
     <!-- 以下だとproject/platform/android/src/plugin/helloworld/以下になる -->
     <source-file src="src/android/HelloWorld.java" target-dir="src/plugin/helloworld/"/>
   </platform>
-
 </plugin>
