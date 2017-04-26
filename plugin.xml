@@ -36,5 +36,8 @@
     <!-- Javaのソースファイル。 target-dir: ファイルがコンパイルされるべき場所 -->
     <!-- 以下だとproject/platform/android/src/plugin/helloworld/以下になる -->
     <source-file src="src/android/HelloWorld.java" target-dir="src/plugin/helloworld/"/>
+    <!-- 外部ライブラリを読み込む -->
+    <lib-file src="src/android/libs/hello.jar" />
+    <!-- <source-file src="src/android/libs/hello.jar" target-dir="libs" /> -->
   </platform>
 </plugin>

@@ -3,6 +3,8 @@ package plugin.helloworld;
 import org.apache.cordova.*;
 import org.json.JSONArray;
 import org.json.JSONException;
+// 外部ライブラリの読み込み
+import hello.HelloWorldJar;
 
 public class HelloWorld extends CordovaPlugin {
 
@@ -11,7 +13,7 @@ public class HelloWorld extends CordovaPlugin {
 
         if (action.equals("sayHello")) {
             String name = data.getString(0);
-            String message = "Hello, World !!! " + "Hello, " + name;
+            String message = HelloWorldJar.helloworld(name);
             callbackContext.success(message);
             return true;
         } else {
